@@ -4,7 +4,7 @@ import "./globals.css";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 const inter = Inter({ subsets: ["latin"] });
 const client = new ApolloClient({
-  uri: "https://rickandmortyapi.com/graphql/",
+  uri: "https://example.com",
   cache: new InMemoryCache(),
 });
 export const metadata: Metadata = {
