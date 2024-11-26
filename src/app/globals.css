@@ -52,3 +52,17 @@ input::-ms-input-placeholder {
   background: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
 }
 
+.gold-bg-login-btnS{
+  background: linear-gradient(to right, #F7EF8A, #D2AC47);
+}
+.gold-most-sold{
+  background: linear-gradient(to right, #FED46C, #926F34);
+}
+
+.box {
+  --mask:
+    radial-gradient(22.36rem at 30rem 50%,#000 99%,#0000 101%) 0 calc(50% - 20rem)/100% 40rem,
+    radial-gradient(22.36rem at -20rem 50%,#0000 99%,#000 101%) 10rem 50%/100% 40rem repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}

@@ -6,10 +6,12 @@ import markazieLogo from "./../../../public/images/markazieLogo.png"
 import { BeSellerBtn } from "../../../components/landing/header/beSellerBtn"
 import { InstallmentPurchaseBtn } from "../../../components/landing/header/InstallmentPurchaseBtn"
 import { Cart } from "../../../components/landing/header/Cart"
+import { Menu } from "../../../components/landing/menu/menu"
 
 export const Header = () => {
     return (
-        <div className="_272727 flex flex-row-reverse justify-between px-12 items-center">
+        <>
+         <div className="_272727 flex flex-row-reverse justify-between px-12 items-center">
             <div className="flex flex-col gap-2.5">
                 <LoginBtn />
                 <RegisterBtn classnames={'border-[#D2AC47] _272727'} />
@@ -23,5 +25,9 @@ export const Header = () => {
             </div>
             <Cart />
         </div>
+        <Menu />
+        
+        </>
+       
     )
 }
